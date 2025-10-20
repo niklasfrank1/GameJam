@@ -16,23 +16,46 @@ namespace DrunkManGame
 
 
         public const string barwallstart =
-        @" ╔═════╗" + "\n" +
+        @"╔═════╗" + "\n" +
+        @"║     ║" + "\n" +
+        @"║     ║" + "\n" +
         @"";
-        
+
         public const string barwallline =
-        @" ║     ║" + "\n" +
+
+        @"║     ║" + "\n" +
+        @"║     ║" + "\n" +
+        @"" +
         @"";
+
 
         public const string barwallright =
-        @" ╚═════" + "\n" +
-        @"";
 
+        @"╚=" + "\n" +
+        @" " + "\n" +   
+        @" " + "\n" +
+        @" ";
+
+        public const string barwallrightline =
+      
+        @"════";
 
         public const string table =
-
         @"╔═════╗" + "\n" +
-        @"╚═════╝" + "\n" +
-        @"";
+        @"║     ║" + "\n" +
+        @"╚═════╝";
+
+        public const string Error =
+        @"╔═════╗" + "\n" +
+        @"║error║" + "\n" +
+        @"║error║" + "\n" +
+        @"╚═════╝";
+
+        public const string open =
+            @"       " + "\n" +
+            @"       " + "\n" +
+            @"       " + "\n" +
+            @"       ";
 
         public static readonly string[] RunRight =
     [
