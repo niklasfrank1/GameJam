@@ -9,9 +9,9 @@ namespace DrunkManGame
     internal class Sprites
     {
         public const string wall00 =
-        @"╔═════╗" + "\n" +
-        @"║█████║" + "\n" +
-        @"║█████║" + "\n" +
+        @"╔═════╗" +
+        @"║█████║" +
+        @"║█████║" +
         @"╚═════╝";
 
 
